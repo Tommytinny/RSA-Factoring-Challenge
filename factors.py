@@ -10,7 +10,6 @@ if __name__ == "__main__":
     if arg < 2 or arg > 2:
         print("no file or more than one file passed")
         sys.exit()
-        
 
     file = open(sys.argv[1], 'r')
     for line in file:
